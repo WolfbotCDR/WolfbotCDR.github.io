@@ -2,3 +2,11 @@
 	background: #1098F7;
 	color: #ffffff ;
 }
+
+.quite-float{
+	float: none;
+}
+
+img{
+	max-width: 100%;
+}
