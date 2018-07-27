@@ -65,6 +65,10 @@ img {
     	font-size: 1em;
     	font-weight: 100;
     }
+
+    .margin-div {
+	margin: 2em;
+}
 }
 
 .information {
@@ -77,8 +81,3 @@ img {
 	padding-top: 20px;
 	font-size: 3em;
 }
-
-.margin-div {
-	margin: 2em;
-}
-
