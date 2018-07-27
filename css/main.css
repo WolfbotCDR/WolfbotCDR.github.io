@@ -1,13 +1,14 @@
 body{
 	font-family:'Do Hyeon', sans-serif;
 	font-size: 1em;
-	background: #21262A; 
 	color: #D3E0E9;
+	background: #707D86;
 }
 
 header{
 	text-align: center;
     color: #D3E0E9;
+    background: #21262A; 
     background-image: url(/src/imgs/tpr_logo_gris.png);
 	background-size: cover;
     background-repeat: no-repeat;
