@@ -97,8 +97,7 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     opacity: 1;
-    font-family:'Do Hyeon', sans-serif;
-
+    font-family: 'Righteous', cursive;
 }
 
 header img {
@@ -108,7 +107,6 @@ header img {
 
 .name-club {
     display: block;
-    font-family: 'Righteous', cursive;
     font-size: 3em;
     font-weight: 200;
 }
