@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-        font-size: 1em;
+    font-size: 1em;
     color: #D3E0E9;
     background: #707D86;
 }
@@ -125,7 +125,7 @@ header img {
 
 @media(min-width:768px) {
     .container {
-        padding-top: 200px;
+        padding-top: 10px;
         padding-bottom: 100px;
     }
 
