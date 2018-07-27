@@ -6,6 +6,9 @@
 
 body {
     overflow-x: hidden;
+        font-size: 1em;
+    color: #D3E0E9;
+    background: #707D86;
 }
 
 p {
@@ -94,6 +97,8 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     opacity: 1;
+    font-family:'Do Hyeon', sans-serif;
+
 }
 
 header img {
@@ -119,17 +124,22 @@ header img {
 }
 
 @media(min-width:768px) {
-    header .container {
+    .container {
         padding-top: 200px;
         padding-bottom: 100px;
     }
 
-    header .intro-text .name {
+    .name-club  {
         font-size: 4.75em;
     }
 
-    header .intro-text .skills {
+    .name-event {
         font-size: 1.75em;
+    }
+
+    .date-event {
+    font-size: 1em;
+    font-weight: 100;
     }
 }
 
