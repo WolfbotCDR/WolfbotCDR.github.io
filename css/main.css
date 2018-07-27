@@ -1,6 +1,26 @@
+body{
+	font-family:'Do Hyeon', sans-serif;
+}
+
+nav{
+	display: block;
+	margin: 10px;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
 .index{
-	background: #1098F7;
-	color: #ffffff;
+	background: #3DAAFF;
+	color: #D3E0E9;
+}
+
+.bar-main{
+	width: 100%;
+	height: 4em;
+	background: #707D86;
 }
 
 .quite-float{
