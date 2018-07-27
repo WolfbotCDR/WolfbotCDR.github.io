@@ -1,40 +1,38 @@
 body{
 	font-family:'Do Hyeon', sans-serif;
-}
-
-nav{
-	display: block;
-	margin: 10px;
-}
-
-nav li {
-	display: inline;
-	margin-right: 40px;
-}
-
-.index{
-	background: #3DAAFF;
+	font-size: 1em;
 	color: #D3E0E9;
 }
 
-.bar-main{
-	width: 100%;
-	height: 4em;
-	background: #707D86;
+header{
+	text-align: center;
+    color: #D3E0E9;
+    background: #21262A; 
+    background-image: url(/src/imgs/tpr_logo_gris.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-position: center center;
+    opacity: 1;
 }
 
 .quite-float{
 	float: none;
 }
 
-img{
-	max-width: 100%;
-}
-
 .margin-page{
 	margin: 20px;
 }
 
-.righteous-font{
+.name-club{
 	font-family: 'Righteous', cursive;
+	font-size: 3em;
 }
+
+.name-event{
+	font-size: 2em;
+}
+
+.date-event{
+	font-size: 1em;
+}
+
