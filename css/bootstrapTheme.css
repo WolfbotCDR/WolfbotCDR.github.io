@@ -91,7 +91,6 @@ header {
     color: #D3E0E9;
     background: #21262A; 
     background-image: url(/src/imgs/tpr_logo_gris.png);
-    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     opacity: 1;
@@ -102,19 +101,19 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name-club {
+.name-club {
     display: block;
     font-family: 'Righteous', cursive;
     font-size: 3em;
     font-weight: 200;
 }
 
-header .intro-text .name-event{
+.name-event{
     font-size: 1.25em;
     font-weight: 100;
 }
 
-header .intro-text .date-event{
+.date-event{
     font-size: 1em;
     font-weight: 100;
 }
