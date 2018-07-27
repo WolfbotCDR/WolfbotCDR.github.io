@@ -107,19 +107,22 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+header .intro-text .name-club {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    ffont-family:'Do Hyeon', sans-serif;
     font-size: 2em;
-    font-weight: 700;
-    text-shadow: -3px 3px #151515;
+    font-weight: 200;
 }
 
-header .intro-text .skills {
+header .intro-text .name-event{
     font-size: 1.25em;
-    font-weight: 300;
-    text-shadow: -2px 2px #151515;
+    font-weight: 100;
+}
+
+header .intro-text .date-event{
+    font-size: 1em;
+    font-weight: 100;
 }
 
 @media(min-width:768px) {
