@@ -88,9 +88,9 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
-    background: #3CA7D3;
-    background-image: url(/img/background.jpg);
+    color: #D3E0E9;
+    background: #21262A; 
+    background-image: url(/src/imgs/tpr_logo_gris.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -98,7 +98,7 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 10px;
     padding-bottom: 50px;
 }
 
