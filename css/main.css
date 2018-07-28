@@ -26,13 +26,20 @@ header {
 }
 
 img {
+	width: 120px;
+	height: 120px;
 	max-width: 120px;
 	max-height: 120px;
+	align-content: center;
 	border-radius: 10px;
 }
 
 h3 {
 	text-transform: uppercase;
+}
+
+.quite-float {
+	float: none;
 }
 
 .name-club {
@@ -84,7 +91,7 @@ h3 {
 	border-style: solid;
 	border-radius: 10px;
 	padding: 10px;
-	background-image: url(/src/imgs/wolfbot_logo_gray.jpeg);
+	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
     background-size: 100%;
     background-position: center;
     opacity: 1;
@@ -93,7 +100,9 @@ h3 {
 .information {
 	background: #D3E0E9;
 	border-radius: 10px;
-	margin: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 	font-family: 'Anton', sans-serif;
 }
 
@@ -129,4 +138,17 @@ h3 {
 .btn-blue:hover, .btn-blue:focus {
     background-color: #5DAAFF;
     color: #ffffff; 
+}
+
+.sponsors {
+	background: #ffffff;
+	font-family: 'Anton', sans-serif;
+}
+
+.center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 50%;
 }
