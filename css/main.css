@@ -90,7 +90,7 @@ h3 {
 	border-style: solid;
 	border-radius: 10px;
 	padding: 10px;
-	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
+	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     opacity: 1;
@@ -115,10 +115,13 @@ h3 {
 }
 
 .btn-gray {
+	display: inline-block;
+	vertical-align: middle;
   	background-color: #707D86;
   	border-color: #21262A;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
   	color: #ffffff; 
-  	margin-top: 1em;
 }
 
 .btn-gray:hover, .btn-gray:focus {
@@ -149,4 +152,20 @@ h3 {
     margin-right: auto;
     vertical-align: middle;
     width: 50%;
+}
+
+#sumo-convo {
+	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
+}
+
+#lbs-convo {
+	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
+}
+
+#perse-convo {
+	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
+}
+
+#reto-convo {
+	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
 }
