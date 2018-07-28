@@ -81,9 +81,7 @@ h3 {
 	border-radius: 10px;
 	padding: 10px;
 	background-image: url(/src/imgs/wolfbot_logo_gray.jpeg);
-	background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
     background-position: center;
     opacity: 1;
 }
