@@ -5,7 +5,7 @@
 }
 
 p {
-    margin: 0 0 0px;
+    margin: 0px 0px 0px;
 }
 
 body {
@@ -162,7 +162,7 @@ h3 {
 }
 
 .social-buttons {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 30px;
 }
 
@@ -220,4 +220,8 @@ h3 {
 .address {
  	padding-top: 10px;
     padding-bottom: 30px;
+ }
+
+ .fa-facebook-f {
+    color: #ffffff;
  }
