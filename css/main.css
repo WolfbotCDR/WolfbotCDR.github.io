@@ -103,7 +103,7 @@ h3 {
 }
 
 .btn {
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 .btn-gray {
@@ -111,6 +111,7 @@ h3 {
   	border-color: #21262A;
   	vertical-align: bottom;
   	color: #ffffff; 
+  	margin-top: 1em;
 }
 
 .btn-gray:hover, .btn-gray:focus {
