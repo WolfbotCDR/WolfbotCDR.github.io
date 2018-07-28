@@ -72,7 +72,11 @@ h3 {
 
     .margin-div {
 	margin: 1em;
-}
+	}
+
+	.padding-bottom-div {
+		padding-bottom: 3em
+	}
 }
 
 .margenes-convo {
@@ -100,16 +104,28 @@ h3 {
 
 .btn {
 	text-transform: uppercase; 
-	vertical-align: bottom;
+}
+
+.btn-gray {
+  	background-color: #707D86;
+  	border-color: #21262A;
+  	vertical-align: bottom;
+  	color: #ffffff; 
+}
+
+.btn-gray:hover, .btn-gray:focus {
+    background-color: #D3E0E9;
+    color: #ffffff; 
 }
 
 .btn-blue {
-  	background-color: #707D86;
+  	background-color: #3DAAFF;
   	border-color: #21262A;
+  	vertical-align: bottom;
   	color: #ffffff; 
 }
 
 .btn-blue:hover, .btn-blue:focus {
-    background-color: #D3E0E9;
+    background-color: #5DAAFF;
     color: #ffffff; 
 }
