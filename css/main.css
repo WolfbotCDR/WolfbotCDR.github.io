@@ -91,6 +91,7 @@ h3 {
 	border-radius: 10px;
 	padding: 10px;
 	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
+    background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
     opacity: 1;
@@ -117,7 +118,6 @@ h3 {
 .btn-gray {
   	background-color: #707D86;
   	border-color: #21262A;
-  	vertical-align: center;
   	color: #ffffff; 
   	margin-top: 1em;
 }
