@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+p {
+    margin: 0 0 0px;
+}
+
 body {
     overflow-x: hidden;
     font-size: 1em;
@@ -146,10 +150,39 @@ h3 {
 	font-family: 'Permanent Marker', cursive;
 }
 
-.title-sponsor {
+.title-sponsor .title-ubi {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-size: 2em;
+}
+
+.contact-info {
+	background: #ffffff;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.social-buttons {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.social-button {
+    margin-bottom: 5px;
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: #dadada;
+    color: #ffffff;
+    margin-right: 0px;
+    transition: background-color 0.6s, transform 0.6s;
+    -webkit-transition: background-color 0.6s, -webkit-transform 0.6s;
+}
+
+.social-buttons .social-button.social-facebook:hover {
+        background-color: #3B5998; 
 }
 
 .center {
@@ -175,3 +208,16 @@ h3 {
 #reto-convo {
 	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
 }
+.footer {
+	border-top: 1px solid #dadada;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    font-size: 1.2rem;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.address {
+ 	padding-top: 10px;
+    padding-bottom: 30px;
+ }
