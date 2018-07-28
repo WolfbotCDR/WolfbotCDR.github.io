@@ -63,7 +63,7 @@ h3 {
 @media(min-width:768px) {
     .container {
         padding-top: 10px;
-        padding-bottom: 50px;
+        padding-bottom: 25px;
     }
 
     .name-club  {
@@ -97,6 +97,17 @@ h3 {
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    opacity: 1;
+}
+
+.margen-time {
+    background: #8CA7B8;
+    border: 3px solid #8CA7B8;
+    border-style: solid;
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
     opacity: 1;
 }
 
@@ -208,15 +219,15 @@ h3 {
 #reto-convo {
 	background-image: url(/src/imgs/convo/img_convo_msumo.jpeg);
 }
-.footer {
-	border-top: 1px solid #dadada;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-size: 12px;
-    font-size: 1.2rem;
-    padding-top: 60px;
-    padding-bottom: 60px;
+
+#time-dowm-counter {
+    font-size: 4em;
 }
+
+#time-text {
+    font-size: 2em;
+}
+
 .address {
  	padding-top: 10px;
     padding-bottom: 30px;
