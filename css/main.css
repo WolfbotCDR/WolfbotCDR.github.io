@@ -31,6 +31,10 @@ img {
 	border-radius: 10px;
 }
 
+h3 {
+	text-transform: uppercase;
+}
+
 .name-club {
     display: block;
     font-size: 3em;
@@ -71,13 +75,38 @@ img {
 }
 }
 
+.margenes-convo {
+	border: 3px solid #8CA7B8;
+	border-style: solid;
+	border-radius: 10px;
+	padding: 10px;
+	background-image: url(/src/imgs/wolfbot_logo_gray.jpeg);
+}
+
 .information {
 	background: #D3E0E9;
 	border-radius: 10px;
 	margin: 10px;
+	font-family: 'Anton', sans-serif;
 }
 
 .title-convo {
 	padding-top: 20px;
 	font-size: 3em;
+}
+
+.btn {
+	text-transform: uppercase; 
+	vertical-align: bottom;
+}
+
+.btn-blue {
+  	background-color: #707D86;
+  	border-color: #21262A;
+  	color: #ffffff; 
+}
+
+.btn-blue:hover, .btn-blue:focus {
+    background-color: #D3E0E9;
+    color: #ffffff; 
 }
